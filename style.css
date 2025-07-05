@@ -127,6 +127,7 @@ img {
   margin-right: 10px;
   width : 70px;
   height: 41px;
+  border-radius: 10px;
 }
 html, body {
   height: 100%;
