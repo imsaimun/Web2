@@ -1,0 +1,163 @@
+#Third {
+  color: darkblue;
+  /* background-color: black; */
+  border: 5px solid goldenrod;
+  font-weight: bold;
+}
+#Fourth {
+  color: #0026cf;
+  /* background-color: black; */
+  border: 5px solid #2268ff;
+  font-weight: bold;
+}
+#Fifth {
+  color: #2873ff;
+  /* background-color: black; */
+  border: 5px solid orangered;
+  font-weight: bold;
+}
+#Sixth {
+  color: #0000ff;
+  /* background-color: black; */
+  border: 5px solid red;
+  font-weight: bold;
+}
+#Seventh {
+  color: darkblue;
+  /* background-color: black; */
+  border: 5px solid #c207a3;
+  font-weight: bold;
+}
+#First, #Second, #Third, #Fourth, #Fifth, #Sixth, #Seventh {
+  padding: 20px;
+  border-radius: 40px;
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: rgba(128, 128, 128, 0.233);
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+h1 {
+  color: aliceblue;
+  text-align: center;
+  font-family: monospace;
+  font-size: 40px;
+  padding: 30px;
+  background-image: url(header\ image.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+#blog {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+h3 {
+  background-color: lightgray;
+  padding: 5px 0px 5px 40px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+  font-size: 20px;
+}
+ul {
+  list-style: square;
+  list-style-position: inside;
+  color: white;
+  padding-left: 0%;
+  font-size: 20px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0% auto;
+  }
+.ban {
+  background: linear-gradient(to right, green, red);
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+.pak {
+  background: linear-gradient(to right, green, rgb(253, 197, 55));
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+.sri {
+  background: linear-gradient(to right, darkblue, goldenrod);
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+.afg {
+  background: linear-gradient(to right,rgb(0, 38, 207), rgb(34, 104, 255));
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+.ind{
+  background: linear-gradient(to right,rgb(40, 115, 255), orangered);
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+.nep {
+  background: linear-gradient(to right,rgb(0, 0, 255), red);
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+.uae {
+  background: linear-gradient(to right, rgb(192, 7, 161), darkblue);
+  padding: 3px 0px 3px 10px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 20px black;
+}
+img {
+  float: left;
+  margin-right: 10px;
+  width : 70px;
+  height: 41px;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-image: url(BG\ image.jpg);
+  background-size: cover 100% 100%;
+  background-repeat: repeat;
+  background-position: center;
+button {
+  background-color: #4CAF50; /* Green */
+  box-shadow: #000000 5px 5px 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  border-radius: 30px;
+  justify-content: center;
+  transform: translateX(330%);
+  bottom: 40px;
+}
+button:hover {
+  background-color: #225824; /* Darker green on hover */
+}
+button:active {
+  background-color: #000000; /* Darker gray on click */
+  box-shadow: inset 0px 0px 5px #000000;
+}
